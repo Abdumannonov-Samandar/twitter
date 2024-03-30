@@ -1,0 +1,68 @@
+/* FONTS */
+
+/* ROOT */
+:root {
+  /* colors */
+  --colorPrimary: #fff;
+  --colorSecondary: #ccc;
+  /* backgrounds */
+  --backgroundPrimary: #000;
+  --backgroundSecondary: #fff;
+  /* btn colors */
+  --btnColor: #f00;
+  --btnHover: #fff;
+  --btnDisabled: #fff;
+  /* fonts */
+  --fontFamily: Arial, sans-serif;
+  --fontWeight: 400;
+  --fontSize: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* font-family: var(--fontFamily);
+  font-weight: var(--fontWeight);
+  font-size: var(--fontSize); */
+  /* background-color: var(--backgroundPrimary); */
+  /* color: var(--colorPrimary); */
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+
+/* .form-control.border-primary-subtle.rounded-pill::placeholder::before {
+    content: url("../assets/icons/search.svg");
+    width: 24px;
+    height: 24px;
+    color: #000;
+    display: inline-block;
+    margin-right: 40px;
+
+} */
